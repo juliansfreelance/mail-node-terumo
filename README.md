@@ -1,2 +1,2 @@
-# mail-node-terumo
-servicio Node.js para  envió de mails.
+# EmailServiceTerumo
+It's a service based in Node JS. 
