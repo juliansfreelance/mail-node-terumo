@@ -11,6 +11,6 @@ app.post('/formulario', (req, res) => {
     configMessaje(req.body);
     res.status(200).send();
 })
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log('Servidor corriendo')
 });
